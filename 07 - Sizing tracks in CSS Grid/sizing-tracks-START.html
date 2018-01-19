@@ -33,10 +33,8 @@
       grid-gap: 20px;
       height: 600px;
       border: 10px solid var(--yellow);
-      grid-template-columns: 1fr 1fr 1fr;
-      /* columns by default take all avaliable space */
-      grid-template-rows: 1fr 10fr 1fr;
-      /* rows by default take its content space */
+      grid-template-columns: auto 1fr 1fr;
+      /* auto adjust to the content in the grid element  */
     }
   </style>
 </body>
