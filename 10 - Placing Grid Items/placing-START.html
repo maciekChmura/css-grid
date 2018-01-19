@@ -48,12 +48,17 @@
       display: grid;
       grid-gap: 20px;
       grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 100px);
     }
 
     .poop {
       /* grid-column: span 2; */
-      grid-column-start: 2;
-      grid-column-end: 5;
+      /*  */
+      /* grid-column-start: 2; */
+      /* grid-column-end: 5; */
+      /* shorthand: */
+      grid-column: 1 / 4;
+      grid-row: 1 / 5;
       background: #bada55
     }
   </style>
