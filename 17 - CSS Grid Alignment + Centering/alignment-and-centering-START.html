@@ -50,6 +50,7 @@
     <div class="itm itm38">38</div>
     <div class="itm itm39">39</div>
     <div class="itm itm40">40</div>
+
   </div>
 
   <style>
@@ -71,6 +72,13 @@
       display: grid;
       grid-gap: 20px;
       grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(5, 100px);
+      justify-items: end;
+      align-items: end;
+    }
+
+    .itm {
+      background: white;
     }
   </style>
 </body>
